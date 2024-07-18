@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 import java.util.Set;
-
+//this entitry is for role
 @Entity
 @Table(name ="roles")
 @Data

@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 import java.util.Set;
 
+//this enttiy is for user 
 @Entity
 @Table(name="users")
 @Data
