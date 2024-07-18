@@ -1,0 +1,22 @@
+
+
+server:
+  port: 8762
+
+
+
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:postgresql://localhost:5555/Todo
+    username: postgres
+    password: Admin@123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
